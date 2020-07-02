@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    background-image: url('images/image-asset.jpeg');
+    background-size: 100vw 700px;
+}
+
+#number-guess, #history, #result {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.row, .buttons{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}   
+
+.input-row {
+    margin: 10px;
+}
+
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url('images/border.png') 30 stretch;
+  }
+
+.card {
+    margin-top: 130px;
+}
+
+
+
+

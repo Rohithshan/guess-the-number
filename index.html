@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="text-center">
+
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#"><h2>Guess The Number</h2></a>
+    </nav>
+    <div class="row" id="row-id">
+        <div class="input-row" id="remove-input">
+            <div class="card text-danger bg-dark mt-8" style="max-width: 28rem; border-radius: 15px;">
+                <div class="card-body">
+                  <h1 class="card-title">1--2----100</h1>
+                  <div id="input-guess">
+                    <input id="number-guess" class="form-group form-control form-control-lg" type="number" placeholder="Type your guess here...">
+                </div>
+                <div class="buttons">
+                    <button type="button" id="number-submit" class="btn btn-lg btn-dark">Check Me</button>
+                    <button type="button" id="restart-game" class="btn btn-lg btn-light">Restart</button>
+                </div>
+                </div>
+              </div>
+            
+        </div>
+    
+    <div class="his-res-container" id="his-res-id">
+        <div id="result">
+                <!-- This is where the result will be-->
+            </div>
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+    </div>
+
+</body>
+</html>
